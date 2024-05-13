@@ -4,8 +4,8 @@ require '../vendor/autoload.php';
 include_once '../config/database.php';
 
 $client = new Google_Client();
-$client->setClientId('117041298384-5l6trsd5va6mje8ngfs8st0q127c7n7o.apps.googleusercontent.com');
-$client->setClientSecret('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');
+$client->setClientId('Client ID');
+$client->setClientSecret('Client secret');
 $client->setRedirectUri('http://localhost/app/public/google_callback.php');
 $client->addScope('email');
 $client->addScope('profile');
