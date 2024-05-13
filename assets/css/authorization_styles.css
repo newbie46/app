@@ -1,0 +1,76 @@
+.authorization-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #2980b9;
+}
+
+.form-submit {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    width: 75%;
+    align-self: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #3498db;
+}
+
+.google-login-link {
+    display: inline-block;
+    margin: 10px auto 0;
+    text-align: center;
+    background-color: #fff;
+    color: #2980b9;
+    padding: 10px 20px;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.google-login-link:hover {
+    background-color: #2980b9;
+    color: #fff;
+    border-color: #2980b9;
+}
+
+.error-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+    color: #e74c3c;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.view-link {
+    color: #72bd1c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.view-link:hover {
+    color: #6dc0009c;
+}
+
+.edit-delete-link {
+    color: #df4040;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.edit-delete-link:hover {
+    color: #ff07079c;
+}
+
+td a {
+    margin-right: 20px;
+}
+
+td a:last-child {
+    margin-right: 0;
+}
+
+.add-new-product-link {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #2980b9;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2980b9;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.add-new-product-link:hover {
+    background-color: #2980b9;
+    color: #fff;
+    border-color: #2980b9;
+}
